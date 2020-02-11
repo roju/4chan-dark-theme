@@ -93,7 +93,7 @@ hr {
 }
 
 .quotelink {
-    color: var(--quote) !important;
+    color: #9370DB !important;
 }
 
 .quotelink:hover {
