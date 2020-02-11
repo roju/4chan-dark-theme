@@ -1,0 +1,215 @@
+:root {
+    --alt-bg: #24252F !important;
+    --quote: #9933ff !important;
+    --post-bg: #1d1e2a !important;
+    --post-bg-hovered: #15e6db !important;
+    --name: #15e6db !important;
+    --quote: #30e67c !important;
+}
+
+body,
+html {
+    background: var(--alt-bg) !important;
+    background-repeat: repeat !important;
+    background-attachment: fixed !important;
+    background-position: center center !important;
+    margin: 0 auto !important;
+    color: gainsboro;
+}
+
+.boardBanner,
+.middlead {
+    display: none !important;
+}
+
+.quote {
+    color: var(--quote) !important;    
+}
+
+.qr-link {
+    display: none;
+    float: right;
+}
+
+#blotter {
+    color: white;
+}
+
+#header-bar {
+    background: var(--post-bg) !important;
+}
+
+#shortcuts {
+    display: none !important;
+}
+
+#board-list {
+    color: gainsboro !important;
+    text-align: center;
+}
+
+#board-list,
+a {
+    color: gainsboro !important;
+}
+
+.show-board-list-button {
+    color: #0099ff !important;
+}
+
+:root.yotsuba .dialog {
+    background-color: var(--post-bg) !important;
+    border-color: var(--post-bg) !important;
+}
+
+hr {
+    border: none !important;
+}
+
+.navLinks {
+    margin: auto;
+    padding: 0.5rem;
+    background-color: var(--post-bg) !important;
+    max-width: 1200px;
+}
+
+.postContainer {
+    margin: auto;
+}
+
+.opContainer {
+    margin: 0 !important;
+}
+
+.thread {
+    margin: auto !important;
+    max-width: 1200px;
+    margin-top: 5rem !important;
+}
+
+.post {
+    background-color: var(--post-bg) !important;
+    border: none !important;
+}
+
+.quotelink {
+    color: var(--quote) !important;
+}
+
+.quotelink:hover {
+    color: var(--quote) !important;
+}
+
+
+.postInfo input {
+    display: none !important;
+}
+
+.subject {
+    color: #9130e6 !important;
+}
+
+.suboption-list {
+    background-color: #222 !important;
+}
+
+.suboption-list div {
+    background-color: #222 !important;
+}
+
+.file {
+    color: var(--post-bg) !important;
+}
+
+.file-info {
+    color: var(--post-bg) !important;
+}
+
+.file-info a {
+    color: var(--post-bg) !important;
+}
+
+.sauce {
+    color: var(--post-bg) !important;
+}
+
+.hide-thread-button {
+    display: none !important;
+}
+
+.name {
+    color: var(--name) !important;
+}
+
+.replyContainer {
+    padding: 1rem !important;
+    float: right;
+    margin: 0 !important;
+    background-color: var(--post-bg) !important;
+    width: 95%;
+}
+
+.backlink:first-child::before {
+    margin-left: -5px !important;
+}
+.backlink {
+    font-size: 0 !important;
+}
+.backlink:after {
+    content: url("http://i.imgur.com/7E3vTXf.png") !important;
+    font-size: 12px !important;
+    margin-right: 0px !important;
+    opacity: 0.5 !important;
+}
+.backlink:after {
+    margin-left: 8px !important;
+}
+
+.qphl {
+    border: none !important;
+    outline: none !important;
+    border-left: 1px solid var(--post-bg-hovered) !important;
+}
+
+    a.fileThumb, div.post div.file .fileThumb img {
+        float: right !important;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+        max-height: 100%;
+    } 
+
+.op {
+    overflow: hidden !important;
+    padding-bottom: 0.5rem;
+}
+
+.postNum {
+    display: none !important;
+}
+
+pre { 
+    background-color: #111 !important;
+}
+
+pre .pln {
+    color: gainsboro !important;
+}
+
+pre .com {
+    color: #666 !important;
+}
+
+pre .kwd {
+    color: #9370DB !important;
+}
+
+pre .lit {
+    color: #ff8fdf !important;
+}
+
+pre .str {
+    color: #95ff8f !important;
+}
+
+pre .pun {
+    color: #53d9ed !important;
+}
