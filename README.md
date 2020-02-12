@@ -4,5 +4,4 @@ import the json into [4chan X chrome extension](https://chrome.google.com/websto
  
 but most importantly, just don't go to 4chan.
 
-Example shot
 ![example](https://i.imgur.com/EbQT5SN.png)
