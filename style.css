@@ -1,6 +1,6 @@
 :root {
     --alt-bg: #24252F !important;
-    --quote: #9933ff !important;
+    --subject: #9933ff !important;
     --post-bg: #1d1e2a !important;
     --post-bg-hovered: #15e6db !important;
     --name: #15e6db !important;
@@ -39,7 +39,36 @@ html {
     background: var(--post-bg) !important;
 }
 
-#shortcuts {
+#shortcut-menu {
+    display: none;
+}
+
+#shortcut-index-refresh {
+    display: none;
+}
+
+#shortcut-qr {
+    display: none;
+}
+
+#shortcut-gallery {
+    display: none;
+}
+
+#shortcut-prefetch {
+    display: none;
+}
+
+#shortcut-expand-all {
+    display: none;
+}
+
+#shortcut-watcher {
+    display: none;
+}
+
+#custom-board-list {
+    margin-left: 14px; 
 }
 
 #board-list {
@@ -69,7 +98,7 @@ hr {
     margin: auto;
     padding: 0.5rem;
     background-color: var(--post-bg) !important;
-    max-width: 1200px;
+    max-width: 12px;
 }
 
 .postContainer {
@@ -105,7 +134,7 @@ hr {
 }
 
 .subject {
-    color: #9130e6 !important;
+    color: var(--subject) !important;
 }
 
 .suboption-list {
