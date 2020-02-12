@@ -40,7 +40,6 @@ html {
 }
 
 #shortcuts {
-    display: none !important;
 }
 
 #board-list {
@@ -171,18 +170,20 @@ hr {
     border-left: 1px solid var(--post-bg-hovered) !important;
 }
 
-    a.fileThumb, div.post div.file .fileThumb img {
-        float: right !important;
-        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-        max-height: 100%;
-    } 
-
 .op {
     overflow: hidden !important;
     padding-bottom: 0.5rem;
 }
 
-.postNum {
+.postNum > a:first-of-type {
+    display: none !important;
+}
+
+.postNum > span {
+    display: none !important;
+}
+
+.dateTime {
     display: none !important;
 }
 
@@ -212,4 +213,62 @@ pre .str {
 
 pre .pun {
     color: #53d9ed !important;
+}
+
+#boards {
+    background-color: var(--post-bg) !important;
+}
+
+.top-box {
+    background-color: var(--post-bg) !important;
+}
+
+.box-outer {
+    border: none !important;
+    background-color: var(--post-bg) !important;
+}
+
+#c-threads {
+    background-color: var(--post-bg) !important;
+}
+
+.boxbar {
+    background-color: var(--post-bg) !important;
+}
+
+.boxbar > h2 {
+    color: #9370DB !important;
+}
+
+#copyright {
+    display: none !important;
+}
+
+#ft, #ft ul, #ft ul li {
+    border: none !important;
+    background-color: var(--post-bg) !important;
+}
+
+.c-thread img {
+    border: none !important;
+}
+
+#logo-fp a img {
+    display: none !important;
+}
+
+#logo-fp {
+    min-height: 50px;
+}
+
+.column h3 {
+    color: #53d9ed !important;
+}
+
+.warning {
+    color: #95ff8f !important;
+}
+
+#opts-btn, #filter-btn {
+    color: #9370DB !important;
 }
