@@ -98,7 +98,6 @@ hr {
     margin: auto;
     padding: 0.5rem;
     background-color: var(--post-bg) !important;
-    max-width: 12px;
 }
 
 .postContainer {
